@@ -8,6 +8,7 @@ import {
   SearchX,
   MessageCircle,
   Eye,
+  Rocket,
 } from "@lucide/astro";
 
 const title = "Candy Shop";
@@ -313,6 +314,98 @@ const title = "Candy Shop";
             Resposta rápida • Atendimento personalizado
           </p>
         </div>
+      </div>
+    </div>
+
+    <!-- CTA  -->
+    <section
+      class="bg-neutral-200 py-6 md:py-12 flex items-center justify-center"
+    >
+      <div
+        class="text-black text-center max-w-4xl lg:max-w-6xl grid lg:grid-cols-2 mx-auto px-4 py-6 md:py-12"
+      >
+        <!-- Coluna 1 -->
+        <div class="flexcol">
+          <h2 class="text-2xl md:text-3xl font-bold mb-4">
+            Sua loja vende, sua equipe atende, sua Vitrine trabalha!
+          </h2>
+          <h4 class="text-xl md:text-2xl font-semibold text-brand-600 mb-4">
+            Cansado de perder horas enviando fotos e preços manualmente no
+            WhatsApp?
+          </h4>
+          <p class="text-gray-700 text-md md:text-base mb-6">
+            Assim como este protótipo da Candy Shop, sua empresa pode ter uma
+            Vitrine Virtual de alta performance que organiza seus pedidos,
+            automatiza seu atendimento e coloca seus produtos no topo das buscas
+            do Google.
+          </p>
+          <span class="text-left text-gray-700 text-md md:text-base">
+            <ul>
+              <li class="flex items-center gap-2 text-gray-700 mb-2">
+                <Truck class="w-4 h-4 text-green-600" />
+                <span
+                  ><strong>Velocidade Máxima:</strong> Site que abre instantaneamente
+                  no celular do seu cliente.</span
+                >
+              </li>
+              <li class="flex items-center gap-2 text-gray-700 mb-2">
+                <MapPin class="w-4 h-4 text-blue-600" />
+                <span
+                  ><strong>Gestão Simplificada:</strong> Altere preços e estoque de
+                  forma fácil e rápida.</span
+                >
+              </li>
+              <li class="flex items-center gap-2 text-gray-700 mb-2">
+                <MessageCircle class="w-4 h-4 text-green-600" />
+                <span
+                  ><strong>Foco em Vendas:</strong> Receba o pedido já pronto e organizado
+                  no seu WhatsApp.</span
+                >
+              </li>
+            </ul>
+          </span>
+          <p class="text-gray-700 text-md md:text-base">
+            Chegou a hora de profissionalizar seu balcão digital.
+          </p>
+          <a
+            href="https://wa.me/5567998951171?text=Ol%C3%A1%2C+gostaria+de+um+or%C3%A7amento!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              class="flex items-center justify-center mx-auto gap-2 mt-4 px-4 py-6 rounded-full text-sm font-semibold transition-all duration-200 bg-brand-600 text-white shadow-md shadow-brand-200 bg-red-600 hover:bg-red-700 cursor-pointer active:scale-[0.98]"
+            >
+              <Rocket /> QUERO UMA VITRINE ASSIM PARA MINHA LOJA
+            </button>
+          </a>
+        </div>
+
+        <!-- Coluna 2 (Imagem) -->
+        <div class="flexcol">
+          <picture class="flex items-center justify-center">
+            <img
+              src="/daniel.png"
+              alt="Daniel Carvalho"
+              class="w-100 h-auto object-cover"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- Disclaimer  -->
+    <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 mt-8">
+      <div class="max-w-8xl lg:max-w-6xl mx-auto">
+        <p class="text-yellow-700 text-sm">
+          <strong>Nota de Demonstração:</strong> Esta é uma página de testes desenvolvida
+          pela <strong>Suprema</strong>.
+        </p>
+        <p class="text-sm">
+          A "Candy Shop", bem como seus produtos, preços e marcas exibidos, são
+          inteiramente fictícios e servem exclusivamente como um protótipo
+          funcional para você testar a experiência de navegação, velocidade e
+          envio de pedidos. Nenhuma compra real será processada.
+        </p>
       </div>
     </div>
 

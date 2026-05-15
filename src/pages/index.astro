@@ -9,6 +9,8 @@ import {
   MessageCircle,
   Eye,
 } from "@lucide/astro";
+
+const title = "Candy Shop";
 ---
 
 <html lang="pt-br">
@@ -18,7 +20,7 @@ import {
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>{title}</title>
   </head>
   <body class="bg-gray-50 font-sans text-gray-800 antialiased min-h-screen">
     <!-- ==================== HEADER ==================== -->
@@ -338,8 +340,7 @@ import {
         name: "Pacote de Bala de Goma 1kg",
         category: "balas",
         categoryLabel: "Balas",
-        image:
-          "https://images.tcdn.com.br/img/img_prod/388802/bala_de_goma_gomets_frutas_sortidas_960g_9954_1_2b72ee408d5caf6e8b2b53b81fb45b80.jpg",
+        image: "/gominhaGommets.png",
         priceRetail: "R$ 25,00",
         priceWholesale: "R$ 22,00",
         wholesaleCondition: "a partir de 5kg",
@@ -351,8 +352,7 @@ import {
         name: "Forminhas para Doces (Cento)",
         category: "confeitaria",
         categoryLabel: "Confeitaria",
-        image:
-          "https://cdn.awsli.com.br/2500/2500504/produto/185445600/n6-k3c2yhua41.jpg",
+        image: "/forminhasDoces.png",
         priceRetail: "R$ 12,00",
         priceWholesale: "R$ 10,00",
         wholesaleCondition: "a partir de 10 centos",
@@ -364,8 +364,7 @@ import {
         name: "Chocolate em Barra Sicao 2kg",
         category: "chocolates",
         categoryLabel: "Chocolates",
-        image:
-          "https://lojasantoantonio.vtexassets.com/arquivos/ids/237750-800-800?v=638791956395770000&width=800&height=800&aspect=true",
+        image: "/chocolateSicao.png",
         priceRetail: "R$ 89,00",
         priceWholesale: "R$ 82,00",
         wholesaleCondition: "a partir de 5 unidades",
@@ -377,8 +376,7 @@ import {
         name: "Caixa de Bombom Sortido 500g",
         category: "chocolates",
         categoryLabel: "Chocolates",
-        image:
-          "https://drogariaspacheco.vteximg.com.br/arquivos/ids/1367684-1000-1000/757187---Caixa-de-Bombom-250g-Garoto-Sortidos-Nestle-Brasil_0000_6706cf4d19fa8300192276b4_2.png.png?v=638690074755800000",
+        image: "/bonbonsGaroto.png",
         priceRetail: "R$ 35,00",
         priceWholesale: "R$ 31,00",
         wholesaleCondition: "a partir de 10 caixas",
@@ -390,8 +388,7 @@ import {
         name: "Açúcar Colorido 1kg",
         category: "confeitaria",
         categoryLabel: "Confeitaria",
-        image:
-          "https://lojasantoantonio.vtexassets.com/arquivos/ids/236365/202967-Acucar-Colorido-Amarelo-300g-Mil-Cores-MAVALA%E2%80%B0RIO.jpg?v=638768808277530000",
+        image: "/acucarColorido.png",
         priceRetail: "R$ 18,00",
         priceWholesale: "R$ 15,50",
         wholesaleCondition: "a partir de 8kg",
@@ -403,8 +400,7 @@ import {
         name: "Embalagens p/ Brigadeiro (50 un)",
         category: "artigos-festa",
         categoryLabel: "Artigos de Festa",
-        image:
-          "https://http2.mlstatic.com/D_681257-MLB79234959009_092024-C.jpg",
+        image: "/embalagemBrigadeiro.png",
         priceRetail: "R$ 15,00",
         priceWholesale: "R$ 13,00",
         wholesaleCondition: "a partir de 20 pacotes",

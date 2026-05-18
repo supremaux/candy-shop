@@ -7,6 +7,7 @@ export default defineConfig({
   output: "server",
   adapter: vercel({
     mode: "standalone", // ou 'edge' se preferir
+    imageService: true,
   }),
   vite: {
     plugins: [tailwindcss()],

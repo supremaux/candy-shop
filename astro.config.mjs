@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   output: "server",
   adapter: vercel({
-    mode: "standalone", // ou 'edge' se preferir
+    mode: "edge", // ou 'edge' se preferir
   }),
   vite: {
     plugins: [tailwindcss()],
